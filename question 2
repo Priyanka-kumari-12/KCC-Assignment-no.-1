@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a,b,c,n;
+    cout<<"enter the = principle value,rate,time respectively  "<<endl;
+    cin>>a>>b>>c;
+    float SI=(a*b*c)/100;
+    cout<<"simple interest"<<" "<<SI<<endl;
+    
+    cout<<"final value is "<<a+SI<<endl;
+    
+    cout<<"enter the no. of times interest is compounded per year"<<endl;
+     cin>>n;
+    float CI=a*pow((1+b/n),c);
+
+    cout<<"compound interest "<<" "<<CI<<endl;
+     
+
+}
