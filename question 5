@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+void swap(int x,int y){
+    int t=x;
+    x=y;
+    y=t;
+    
+     cout<<"after swap"<<""<<"a="<<x<<""<<"b="<<y;
+
+}
+int main(){
+    int a=5;
+    int b=3;
+
+    swap(a,b);
+
+    cout<<"before swap"<<""<<"a="<<a<<""<<"b="<<b;
+
+    return 0;
+}
