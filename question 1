@@ -1,0 +1,41 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+int main(){
+
+   int a;
+   vector<int>v;
+
+  
+
+   
+      v.push_back(95);
+      v.push_back(87);
+      v.push_back(94);
+      v.push_back(87);
+      v.push_back(85);
+      v.push_back(91);
+   
+     cout<<"enter the marks respectively "<<endl;
+    cout<<"Mathematics"<<endl;
+    cout<<"ECE"<<endl;
+    cout<<"CHEMISTRY"<<endl;
+    cout<<"EVE"<<endl;
+    cout<<"FME"<<endl;
+
+   float sum=0;
+
+   for(int i=0;i<5;i++){
+      sum+=v[i];
+   }
+   cout<<"total marks  "<<sum<<endl;
+
+   float p=(sum/5);
+
+   cout<<"percentage  "<<p<<endl;
+
+   
+   
+      return 0;
+
+}
