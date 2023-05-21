@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+   /* int r;
+    cout<<"enter the radius of circle"<<endl;
+    cin>>r;
+    float aoc=3.14*pow(r,2);
+    float coc=2*3.14*r;
+    cout<<"Area of circle=  "<<aoc<<endl;
+    cout<<"Circumference  of circle=  "<<coc<<endl;*/
+
+
+    cout<<"Now temperature conversion "<<endl;
+
+    int t;
+    cout<<"enter the temperature int centegrate ";
+
+    cin>>t;
+    float f=(t*9/5)+32;
+    cout<<"temperature in fahrenhiet=  "<<f<<endl;
+
+    return 0;
+}
