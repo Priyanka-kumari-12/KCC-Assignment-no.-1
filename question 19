@@ -1,0 +1,33 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+int main(){
+
+    int num=1,rem,sum,k;
+    cout<<"Armstrong Number are:"<<end 1;
+    do
+    {
+        sum=0;
+        k=num;
+        do
+        {
+            rem=num%10;
+            sum=sum+rem*rem*rem;
+            num=num/10;
+
+            /* code */
+        }
+          while(num=0);
+          if (sum==k)
+        {
+            cout<<k<<ends;
+        }
+            num++;
+
+        
+        /* code */
+    } while(num<=100);
+       getch();
+       return 0;
+    
+}
