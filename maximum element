@@ -1,0 +1,13 @@
+public class FindMaxElement {
+    public static void main(String[] args) {
+        int[] array = {25,45,78,32,23,57,67};
+        for (int i = 1; i < array.length; i++) {
+            if (array[i] > maxElement) {
+                maxElement = array[i];
+            }
+        }
+        System.out.println("Maximum element in the array: " + maxElement);
+    }
+}
+
+
