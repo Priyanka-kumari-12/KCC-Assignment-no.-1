@@ -1,0 +1,22 @@
+public class AveragePhysicsMarks {
+    public static void main(String[] args) {
+        double[] physicsMarks = { 85.5, 90.0, 78.5, 92.0, 8};
+        double sum = 0.0;
+        int count = 0;
+        for (double mark : physicsMarks) {
+            sum += mark;
+            count++;
+        }
+
+        
+        double average = sum / count;
+
+        // Display the average marks
+        System.out.println("Average Physics Marks: " + average);
+    }
+}
+
+
+
+
+
